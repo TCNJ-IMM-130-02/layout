@@ -1,0 +1,36 @@
+#wrapper {
+    width: 500px;
+    margin: 10px auto 10px auto;  
+    /* top, right, bottom, left */
+    height: 1000px;
+    background:#eeeeee;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background:#dddddd;
+    text-align: center;
+}
+
+.article-header {
+    background:#ffffff;
+}
+
+nav, aside {
+    background:#dddddd;
+    width:100px;
+    float: left;
+}
+
+article {
+    /*border: 1px solid #000000;*/
+    background: #ffffff;
+    width:300px;
+    float: left;
+}
+
+#page-footer {
+    clear:left;
+    background:#dddddd;
+}
